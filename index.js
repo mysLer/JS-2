@@ -163,5 +163,7 @@ console.log(assg2,dec2)   //burada (5,6) gormus oluruz
 const firstName = "Jeff";
 const surName = "Bezos";
 
-console.log(firstName + surName)
+console.log(firstName + surName)   //bu ifadeyle araya bosluk koymadan console da JeffBezos olarak goruruz
+
+//console.log(firstName + " " + surName)   //bu ifadeyle araya bosluk birakir Jeff Bezos olarak goruruz.
 
