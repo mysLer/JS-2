@@ -50,6 +50,8 @@ this is used for
 multiline comments
 */
 
+/* var ve let i bir nevi kutu gibi dusun, kutunun icindekileri degistirebilirsin
+ama const un icindekileri degistiremezsin asagida bunla ilgili ornek var */
 var fName = "Afra"
 let fName2 = "Muhlise"  /*yeni isim verilebiliyor*/
 fName2 = "Kemal"    /*yeni isim verilebiliyor*/
@@ -61,8 +63,8 @@ const fName3 = "Ebuzer"
 // ---- DATA  TYPES ---- // 
 
 /* 
-1. string
-2. number
+1. string     (tirnak isareti icerisine aldigimiz hersey)
+2. number   (butun sayalarin data type console da number diye gorunur)
 3. boolean   (dogru yanlis degerlere diyoruz-true-false)
 4. undefined (tirnak isaretleri, atama yapmadim sadece tanimlama yaptim diyorsak bu yazar)
 5. null (atama yaptim ama bos kalsin sonra doldurcam diyorsak null diyoruz)
@@ -79,20 +81,22 @@ let email = null;
 console.log("email",email)
 
 let variable = 'ali29';
-
 console.log(typeof variable)
 
+console.log(phoneNummer)
 console.log(email)
 
-console.log(phoneNummer)
+/* const nummer = 3,14 */  /*bunu noktaya cebirebilmek icin replase yapilacak ilerde gorucez*/
 
+console.log("111111",typeof 29)
 console.log(typeof name)
 
+console.log(typeof 29)
+
 console.log(typeof "123")
-
 console.log(typeof 3.14)
-
+console.log("2222", typeof 3,14) /*Sayilari noktali yazmadigim icin Console da bu nummer ve 14 olarak gorunecek
+sadece nummer olarak gorunmesi icin noktali yazilmali, yoksa virgulden sonrasi rakam olarak gorunecek*/
 console.log(typeof true)
-
 console.log(typeof false)
 
