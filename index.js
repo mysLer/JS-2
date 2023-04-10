@@ -133,3 +133,10 @@ console.log(mod)
 
 /* let mod = 10 / 3 ;   kesme isareti ile mod yapilirsa bolme islemi kalani degil sonucu verir. 
 kalan sayiyi bulmak icin yüzde ifadesi kullanilir*/
+
+
+// ------------------------ Increment decrement ------------------------------------- //
+
+let ab = 3;
+let xy = --ab  //bu satirsa ab = 2 olur. Yani ab 1 eksiltilir
+console.log(ab, xy)
