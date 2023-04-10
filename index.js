@@ -158,4 +158,10 @@ let assg2 = dec2++;
 
 console.log(assg2,dec2)   //burada (5,6) gormus oluruz
 
+// String Concetanation
+// buna parantez icindekilerini birlestirme islemi diyebiliriz
+const firstName = "Jeff";
+const surName = "Bezos";
+
+console.log(firstName + surName)
 
