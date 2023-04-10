@@ -60,7 +60,7 @@ const fName3 = "Ebuzer"
 
 
 
-// ---- DATA  TYPES ---- // 
+// ------------------------ DATA  TYPES ------------------------------------- // 
 
 /* 
 1. string     (tirnak isareti icerisine aldigimiz hersey)
@@ -97,6 +97,39 @@ console.log(typeof "123")
 console.log(typeof 3.14)
 console.log("2222", typeof 3,14) /*Sayilari noktali yazmadigim icin Console da bu nummer ve 14 olarak gorunecek
 sadece nummer olarak gorunmesi icin noktali yazilmali, yoksa virgulden sonrasi rakam olarak gorunecek*/
-console.log(typeof true)
+console.log(typeof true)    /*true ve false un degerleri boolean olarak gorunecek*/
 console.log(typeof false)
 
+
+// ------------------------ BASIC OPERATORS ---------------------------- //
+
+let currentYear = 2021;
+let age = currentYear - 1971;
+
+console.log("age", age)
+
+let a = 3
+
+let b = 8
+
+let total = a + b
+let totalValue = 5 + 8;
+
+console.log(total, totalValue)
+
+let x = 3*5 ;
+console.log(x)
+
+let y = 8/4 ;
+console.log(y)
+
+let exponent = 2**3 ; /*üstü ifadesi kullanilirken 2 üzer 3 demek icin iki carpi kullaniyoruz */
+console.log(exponent)
+
+
+
+let mod = 10 % 3 ;  //bu bir bolme islemidir
+console.log(mod)
+
+/* let mod = 10 / 3 ;   kesme isareti ile mod yapilirsa bolme islemi kalani degil sonucu verir. 
+kalan sayiyi bulmak icin yüzde ifadesi kullanilir*/
