@@ -136,7 +136,26 @@ kalan sayiyi bulmak icin yüzde ifadesi kullanilir*/
 
 
 // ------------------------ Increment decrement ------------------------------------- //
+// "--" -> 1 azaltilir (azalt sonra ata demek
+// "++" -> 1 artirir. (ata sonra azalt
 
 let ab = 3;
 let xy = --ab  //bu satirsa ab = 2 olur. Yani ab 1 eksiltilir
-console.log(ab, xy)
+console.log(ab, xy) //bu satirda ab = 2 olur.
+
+// eger sadece abc yi azaltmak istiyorsak xyz abc ilk hali gibi kalsin istiyorsak asagidaki gibi islemi yapmaliyiz.
+let abc = 3;
+let xyz= abc--  // bu satirda abc = 3 olur. genel kullanim bu sekildedir
+console.log (xyz,abc)
+
+let decrement = 5;
+let assg = ++decrement;
+
+console.log(decrement, assg)   //burada (6,6) gormus oluruz
+
+let dec2 = 5;
+let assg2 = dec2++;
+
+console.log(assg2,dec2)   //burada (5,6) gormus oluruz
+
+
