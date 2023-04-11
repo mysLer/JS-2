@@ -72,7 +72,7 @@ const fName3 = "Ebuzer"
  */
 
 
-let name = "Afra" 
+/* let name = "Afra" 
 
 let phoneNummer ;
 console.log("phoneNummer",phoneNummer)
@@ -88,7 +88,7 @@ console.log(email)
 
 /* const nummer = 3,14 */  /*bunu noktaya cebirebilmek icin replase yapilacak ilerde gorucez*/
 
-console.log("111111",typeof 29)
+/* console.log("111111",typeof 29)
 console.log(typeof name)
 
 console.log(typeof 29)
@@ -97,13 +97,13 @@ console.log(typeof "123")
 console.log(typeof 3.14)
 console.log("2222", typeof 3,14) /*Sayilari noktali yazmadigim icin Console da bu nummer ve 14 olarak gorunecek
 sadece nummer olarak gorunmesi icin noktali yazilmali, yoksa virgulden sonrasi rakam olarak gorunecek*/
-console.log(typeof true)    /*true ve false un degerleri boolean olarak gorunecek*/
-console.log(typeof false)
+/*console.log(typeof true)    /*true ve false un degerleri boolean olarak gorunecek*/
+/*console.log(typeof false) */
 
 
 // ------------------------ BASIC OPERATORS ---------------------------- //
 
-let currentYear = 2021;
+/*let currentYear = 2021;
 let age = currentYear - 1971;
 
 console.log("age", age)
@@ -124,7 +124,7 @@ let y = 8/4 ;
 console.log(y)
 
 let exponent = 2**3 ; /*üstü ifadesi kullanilirken 2 üzer 3 demek icin iki carpi kullaniyoruz */
-console.log(exponent)
+/*console.log(exponent)
 
 
 
@@ -139,7 +139,7 @@ kalan sayiyi bulmak icin yüzde ifadesi kullanilir*/
 // "--" -> 1 azaltilir (azalt sonra ata demek
 // "++" -> 1 artirir. (ata sonra azalt
 
-let ab = 3;
+/* let ab = 3;
 let xy = --ab  //bu satirsa ab = 2 olur. Yani ab 1 eksiltilir
 console.log(ab, xy) //bu satirda ab = 2 olur.
 
@@ -156,14 +156,41 @@ console.log(decrement, assg)   //burada (6,6) gormus oluruz
 let dec2 = 5;
 let assg2 = dec2++;
 
-console.log(assg2,dec2)   //burada (5,6) gormus oluruz
+console.log(assg2,dec2)  */  //burada (5,6) gormus oluruz
 
 // String Concetanation
 // buna parantez icindekilerini birlestirme islemi diyebiliriz
+
 const firstName = "Jeff";
 const surName = "Bezos";
 
 console.log(firstName + surName)   //bu ifadeyle araya bosluk koymadan console da JeffBezos olarak goruruz
 
-//console.log(firstName + " " + surName)   //bu ifadeyle araya bosluk birakir Jeff Bezos olarak goruruz.
+console.log(firstName + " " + surName)   //bu ifadeyle araya bosluk birakir Jeff Bezos olarak goruruz.
+
+// Assignment Operator
+
+let val = true;
+
+let x = 2;
+
+x = x + 5;
+console.log("x=" + x)
+
+x += 5;
+console.log("x=" + x)  //burada x artik 7 oldugu icin 7+5 cevabini bulucaz yani cevap 12
+
+let y = 10;
+y /=2 ;
+console.log("y=" + y) //burada y artik 10/2 demek yani 5 sonucunu verir
+
+y *=4 ;
+console.log("y=" + y) //burada en son y sonucu 5 oldugu icin 5*4 cevabini bulucaz yani cevap 5*4= 20 sonucunu verir
+
+/* x = x + y;
+console.log("x=" + x) */ //burada en on x sonucu ile en son y sonucu toplanmis olur cevap 32
+
+x +=y ;
+console.log("x=" + x) //burada en on x sonucu ile en son y sonucu toplanmis olur cevap 32
+//x ile y yi kolay olarak toplamak icin x +=y ifadesi daha kisa bir kod olarak kullanilir
 
