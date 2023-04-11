@@ -158,6 +158,9 @@ let assg2 = dec2++;
 
 console.log(assg2,dec2)  */  //burada (5,6) gormus oluruz
 
+
+
+
 // String Concetanation
 // buna parantez icindekilerini birlestirme islemi diyebiliriz
 
@@ -167,6 +170,9 @@ const surName = "Bezos";
 console.log(firstName + surName)   //bu ifadeyle araya bosluk koymadan console da JeffBezos olarak goruruz
 
 console.log(firstName + " " + surName)   //bu ifadeyle araya bosluk birakir Jeff Bezos olarak goruruz.
+
+
+
 
 // Assignment Operator
 
@@ -194,3 +200,37 @@ x +=y ;
 console.log("x=" + x) //burada en on x sonucu ile en son y sonucu toplanmis olur cevap 32
 //x ile y yi kolay olarak toplamak icin x +=y ifadesi daha kisa bir kod olarak kullanilir
 
+
+
+
+
+
+// Comparison Operators
+// <, >, <=, >=, ==,!=, ===,!==
+
+//   "==" birbirine esit mi? sorusunu sormak icin, Degerler karsilastirilir, veri türleri kontrol edilmez.
+//   "!=" esit degildir? sorusunu sormak icin
+//   "===" sadece strict olarak karsiligini alabildigimiz sorudur veri tipi ve degerleri arasinda kesin bir karsilastirma yapmak icin daha guvenlidir
+let ageAhmet = 50;
+let ageUtku = 28;
+
+console.log(ageAhmet > ageUtku)  //this gives boolen value.
+                                 // burada sonuc True olarak goruruz
+                                 //yani dogru yanlis cevabini aliriz
+
+console.log (ageAhmet < ageUtku)  //sonuc false olarak goruruz
+
+console.log (ageAhmet == 50) //ahmedin yasi 50 mi? Console cevabi True veriyor.
+console.log (ageUtku !=28)  //Utkunun yasi 28 degildir. Console cevabi False olur cunku utku 28 yasinda
+
+console.log ("1", ageAhmet == "50")  // loose comparison (sadece icindeki onemli diyebiliriz yani sayida olabilir strict te olabilir farketmez sadece kontrol et demek)
+                                     // örnegin bir imput a yas girmek istersin ama imputun type i karsiligi text tir. o zaman 15 girsede bize o text olarak gelir.
+                                     // strict gelen 50 de dogru number gelen 50 de dogrudur. o 
+
+console.log ("2", ageAhmet === "50") // strict comparison
+                                    // burada datetype ini da kontrol ettigimiz icin false diye gorunur.
+                                    // yukarida let ageAhmet = 50; diye yazilmisti orada strict (tirnak isarei icerisinde verilmedigi icin fasle olarak goruzndu.
+                                    // yani  "===" ifadesini kullandigimizda sadece strict kontrol edilir. scrict degilse False karsiligini aliriz.
+                                    //buarada let ageAhmet = "50"; diye yazilmis olsaydi sonuc True olurdu.
+
+console.log ("3", ageAhmet!== "50") //strict  50 ye esit degil mi sorusunu sormus oluyoruz. yani sonuc True oldu.                                   
